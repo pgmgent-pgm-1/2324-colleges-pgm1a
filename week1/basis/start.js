@@ -23,3 +23,10 @@ const pi = 3.14; // number
 
 console.log(name);
 console.log("Mijn naam is " + firstName + " " + lastName);
+
+let x;
+if (x) {
+  console.log("X heeft een waarde");
+} else {
+  console.log("X is undefined");
+}

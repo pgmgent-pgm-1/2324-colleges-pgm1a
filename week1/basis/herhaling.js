@@ -20,3 +20,7 @@ console.log(studentName + " is momenteel " + studentAge);
 const student_name = "";
 // camelCase
 const studentFirstName = "";
+
+const day = 20; // number
+const word = "course"; // string
+const isWednesday = true; // boolean
