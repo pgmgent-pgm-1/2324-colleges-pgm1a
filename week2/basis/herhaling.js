@@ -28,3 +28,7 @@ if (year > 2016) {
 
 console.log("Hallo" && true); // true
 console.log(undefined && true); // undefined geeft false wanneer gebruikt als conditie
+
+// getal x deelbaar door bv. 5?
+const x = 10;
+console.log(x % 5 === 0); // true
