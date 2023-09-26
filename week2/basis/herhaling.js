@@ -25,3 +25,6 @@ if (year > 2016) {
 } else {
   console.log("Het jaar is 2016");
 }
+
+console.log("Hallo" && true); // true
+console.log(undefined && true); // undefined geeft false wanneer gebruikt als conditie
