@@ -32,3 +32,10 @@ console.log(undefined && true); // undefined geeft false wanneer gebruikt als co
 // getal x deelbaar door bv. 5?
 const x = 10;
 console.log(x % 5 === 0); // true
+
+const lokaal = "h12"; // string
+const isOld = true; // boolean
+// const year = 1990; // number;
+const students = ["Eliaz", "Elias"]; // array
+console.log(students[0]);
+console.log(students[1]);
