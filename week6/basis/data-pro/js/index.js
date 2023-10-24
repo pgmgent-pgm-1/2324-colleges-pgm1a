@@ -28,7 +28,7 @@
   };
 
   // add event listeners
-  const addEventListeners = () => {
+  const registerListeners = () => {
     console.log("3. Add interaction!");
     const $items = document.querySelectorAll(".list li");
 
@@ -53,7 +53,7 @@
   const initialize = () => {
     console.log("1. Application started!");
     buildUI();
-    addEventListeners();
+    registerListeners();
   };
 
   initialize();
