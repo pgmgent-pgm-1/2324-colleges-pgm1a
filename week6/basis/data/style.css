@@ -1,0 +1,19 @@
+.grid {
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.list {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.list li {
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.list li:hover {
+  background: #eee;
+}

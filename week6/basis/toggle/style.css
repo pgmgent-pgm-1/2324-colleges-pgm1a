@@ -1,0 +1,36 @@
+.buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.list.grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.list.grid li {
+  background: #ddd;
+  padding: 1rem;
+}
+
+.box {
+  position: fixed;
+  width: 4rem;
+  height: 4rem;
+  background: red;
+  right: 1rem;
+  top: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.box.box--circle {
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  background: green;
+}
